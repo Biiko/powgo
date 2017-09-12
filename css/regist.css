@@ -1,0 +1,49 @@
+.bodystyle {
+  background: #367785;
+}
+
+.container {
+  height: 380px;
+  margin: 0 auto;
+  margin-top: 10%;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.QRcodeimg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.showingdiv {
+  margin-top: 7%;
+}
+
+.showingdiv2 {
+  /*	background: #131535;*/
+  height: 180px;
+}
+
+.textingdiv {
+  margin-top: 3%;
+  float: left;
+  /*	background: #131535;*/
+}
+
+.btngroupdiv {
+  position: relative;
+  float: left;
+  /*	background: #131535;*/
+  width:
+}
+
+.registbtn {
+  float: left;
+  margin-left: 5px;
+}
+
+.loginbtn {
+  float: left;
+}

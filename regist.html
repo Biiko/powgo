@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ZH-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/regist.css">
+	<title>登录</title>
+</head>
+<body class="bodystyle">
+	<div class="col-lg-4"></div>
+	<form class="container col-sm-4" action=./php/regist.php method="post">
+		<div id="loginbox" >
+			<div id="showingdiv" class="showingdiv">
+				<h1>G盟</h1>
+
+				<h4>搞事！搞事！</h4>
+			</div>
+			<div id="textingdiv" class="textingdiv col-md-8">
+				<!-- 用户名：user_name -->
+				<div class="input-group" style="margin-top: 3%;">
+					<span class="input-group-addon" id="basic-addon1">账号:</span>
+					<input id="userName" type="text" class="form-control" placeholder="其实就是邮箱辣" name="user_name">
+				</div>
+
+				<!--密码:user_psw-->
+				<div class="input-group" style="margin-top: 2%;">
+					<span class="input-group-addon" id="basic-addon1">密码:</span>
+					<input id="passWord" type="passWord" class="form-control" placeholder="请输入密码哦" name="user_psw">
+				</div>
+
+				<div class="input-group" style="margin-top: 2%;">
+					<span class="input-group-addon" id="basic-addon1">确认:</span>
+					<input id="c_passWord" type="passWord" class="form-control" placeholder="再次输入相同的密码" name="user_cpsw">
+				</div>
+			</div>
+			<div id="showingdiv2" class="col-md-4 showingdiv2">
+				<img src="./img/QRcode.png" class="QRcodeimg">
+				<h6 style="float: right;">你可以选择扫码。</h6>
+			</div>
+			<!--下面是登陆按钮,包括颜色控制-->
+			<div class="btngroupdiv col-lg-8">
+				<input type="submit" class="btn btn-primary col-md-3 loginbtn"  value="注册">
+				<input type="button" class="btn btn-default col-md-3 registbtn"  name="" value="返回" onclick="location='index.html' ">
+				<a href="#"  style="float: right;margin-top: 3%;">忘记密码</a>
+			</div>
+
+		</div>
+	</form>
+	<div class="col-sm-4"></div>
+</body>
+</html>
